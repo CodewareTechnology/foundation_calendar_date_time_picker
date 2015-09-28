@@ -149,7 +149,7 @@ $.fcdp = {
 			utcOffset: utcOffset,
 			minDate: input.is('[data-min-date]') ? this.getDateFromString(input.data('min-date')) : null,
 			maxDate: input.is('[data-max-date]') ? this.getDateFromString(input.data('max-date')) : null,
-			fixed: input.is('[data-fixed]') ? true : false,
+			fixed: input.is('[data-fixed]') ? true : false
 		};
 		
 		// Incorporate the options that were passed in with the build call if they
